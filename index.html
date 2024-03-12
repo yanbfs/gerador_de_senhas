@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="src/css/responsive.css">
+
+    <!-- Script -->
+    <script src="src/js/script.js" defer></script>
+</head>
+
+<body>
+    <h1>Gerador de Senha</h1>
+
+    <p>Utilize o nosso gerador online para criar uma senha forte e segura.</p>
+
+    <input 
+        type="text" 
+        name="password" 
+        id="password"
+    >
+
+    <input 
+        type="range" 
+        name="password-length" 
+        id="password-length" 
+        value="16" 
+        min="4" 
+        max="64"
+    >
+
+    <button id="copy-button">Copiar senha</button>
+</body>
+
+</html>
