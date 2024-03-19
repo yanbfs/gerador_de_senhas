@@ -60,7 +60,7 @@ Tecnologias Utilizadas
     • Google Fonts: Serviço para importar fontes personalizadas para a página.
 
 
-*********************************************************************************************************************************
+***************************************************************************************************************************
 
 Documentação do Script em JavaScript do Gerador de Senhas
     Esta documentação descreve o código JavaScript responsável por gerar senhas seguras e interagir com a interface de usuário de um 
