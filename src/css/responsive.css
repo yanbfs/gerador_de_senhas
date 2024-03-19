@@ -1,0 +1,28 @@
+@media only screen and (max-width: 480px){
+    .password {
+        padding: 1rem;
+    }
+    .password .text input{
+        font-size: 1.5rem;
+    }
+
+    .password .text input{
+        font-size: 2rem;
+    }
+
+    .password .text input.password-sm{
+        font-size: 1.5rem;
+    } 
+    
+    .password .text input.password-md{
+        font-size: 1.2rem;
+    }
+    
+    .password .text input.password-lg{
+        font-size: 0.9rem;
+    }
+
+    .password .action img {
+        width: 24px;
+    }
+}
